@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SignInActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registrarse"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        android:textSize="30dp"
+        android:fontFamily="sans-serif-black"
+        />
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Correo electrónico"
+        />
+
+    <EditText
+        android:id="@+id/editTextPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:layout_marginTop="5dp"
+        />
+    <EditText
+        android:id="@+id/editTextRPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Re Enter Password"
+        android:inputType="textPassword"
+        android:layout_marginTop="5dp"
+        />
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registrarse"
+        />
+
+    <TextView
+        android:id="@+id/txtHaveAccount"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="¿Ya tienes cuenta? Acceso"
+        />
+</LinearLayout>

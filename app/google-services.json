@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "536355831077",
+    "firebase_url": "https://travelprojectus-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "travelprojectus",
+    "storage_bucket": "travelprojectus.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:536355831077:android:f1171b5385ae75fea3aecc",
+        "android_client_info": {
+          "package_name": "com.mis.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "536355831077-lgdo1775o72nmpqj30a1bliovg65ifnt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mis.myapplication",
+            "certificate_hash": "7e3c06369856371d1b4fab213df3750b5219fb32"
+          }
+        },
+        {
+          "client_id": "536355831077-7k11b0git8mtk3c7ddt2vt295sp00c7b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYNhaEHFSHXl_zfn_gA-hwh1YKODYRBK4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "536355831077-7k11b0git8mtk3c7ddt2vt295sp00c7b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
